@@ -5,6 +5,7 @@
 #include <stdint.h>
 
 void init_board();
+void movePiece(U64* board, int from, int to);
 
 // Bitboards for all pieces.
 U64 white_pawns, white_rooks, white_knights, white_bishops, white_queen, white_king;
