@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdint.h>
+#include "core.h"
 
 typedef uint64_t U64;
 
